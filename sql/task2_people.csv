@@ -1,0 +1,9 @@
+id,last_name,first_name,patronymic,gender,nationality,height_cm,weight_kg,birth_date,phone,postal_code,country,region,district,city,street,house,apartment,email,city_id
+1,Smirnov,Ivan,Petrovich,M,Belarusian,182,80.5,2001-03-11,+375291110001,220001,Belarus,"Minsk region","Minsk district",Minsk,Lenina,10,12,,1
+3,Kovalev,Anton,Sergeevich,M,Belarusian,169,68.1,2004-02-01,+375291110003,220003,Belarus,"Brest region","Brest district",Brest,Sovetskaya,17,6,,2
+4,Lebedeva,Anna,Olegovna,F,Belarusian,164,54.6,2005-11-16,+375291110004,220004,Belarus,"Vitebsk region","Vitebsk district",Vitebsk,Mira,24,51,,3
+5,Semenov,Nikita,Alekseevich,M,Belarusian,173,71.0,2003-12-03,+375291119999,220005,Belarus,"Grodno region","Grodno district",Grodno,UpdatedStreet,8,19,,4
+6,Ivanova,Daria,Maksimovna,F,Belarusian,171,60.8,2002-09-27,+375291110006,220006,Belarus,"Minsk region","Minsk district",Minsk,"Yanki Kupaly",42,7,,1
+7,Morozov,Kirill,Dmitrievich,M,Belarusian,185,90.4,1997-05-15,+375291110007,220007,Belarus,"Mogilev region","Mogilev district",Mogilev,Pushkina,13,3,,6
+8,Stepanova,Maria,Andreevna,F,Belarusian,168,57.3,2006-01-09,+375291110008,220008,Belarus,"Gomel region","Gomel district",Gomel,Molodezhnaya,77,22,,5
+9,Savchenko,Artem,Romanovich,M,Belarusian,179,74.9,2000-04-18,+375291110009,220009,Belarus,"Minsk region","Minsk district",Minsk,Nezavisimosti,99,101,,1

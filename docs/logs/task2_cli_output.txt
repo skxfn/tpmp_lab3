@@ -1,0 +1,112 @@
+=== task 2.3: create table ===
+=== task 2.3: insert data ===
+=== task 2.3: select all ===
+id  last_name  first_name  patronymic    gender  nationality  height_cm  weight_kg  birth_date  phone          postal_code  country  region          district          city     street         house  apartment
+--  ---------  ----------  ------------  ------  -----------  ---------  ---------  ----------  -------------  -----------  -------  --------------  ----------------  -------  -------------  -----  ---------
+1   Smirnov    Ivan        Petrovich     M       Belarusian   182        80.5       2001-03-11  +375291110001  220001       Belarus  Minsk region    Minsk district    Minsk    Lenina         10     12       
+2   Sidorov    Pavel       Ivanovich     M       Belarusian   176        77.2       1998-07-22  +375291110002  220002       Belarus  Minsk region    Minsk district    Minsk    Pobedy         5      34       
+3   Kovalev    Anton       Sergeevich    M       Belarusian   169        68.1       2004-02-01  +375291110003  220003       Belarus  Brest region    Brest district    Brest    Sovetskaya     17     6        
+4   Lebedeva   Anna        Olegovna      F       Belarusian   164        54.6       2005-11-16  +375291110004  220004       Belarus  Vitebsk region  Vitebsk district  Vitebsk  Mira           24     51       
+5   Semenov    Nikita      Alekseevich   M       Belarusian   173        71.0       2003-12-03  +375291110005  220005       Belarus  Grodno region   Grodno district   Grodno   Centralnaya    8      19       
+6   Ivanova    Daria       Maksimovna    F       Belarusian   171        60.8       2002-09-27  +375291110006  220006       Belarus  Minsk region    Minsk district    Minsk    Yanki Kupaly   42     7        
+7   Morozov    Kirill      Dmitrievich   M       Belarusian   185        90.4       1997-05-15  +375291110007  220007       Belarus  Mogilev region  Mogilev district  Mogilev  Pushkina       13     3        
+8   Stepanova  Maria       Andreevna     F       Belarusian   168        57.3       2006-01-09  +375291110008  220008       Belarus  Gomel region    Gomel district    Gomel    Molodezhnaya   77     22       
+9   Savchenko  Artem       Romanovich    M       Belarusian   179        74.9       2000-04-18  +375291110009  220009       Belarus  Minsk region    Minsk district    Minsk    Nezavisimosti  99     101      
+10  Orlova     Elena       Vladimirovna  F       Belarusian   166        59.2       1999-08-30  +375291110010  220010       Belarus  Brest region    Brest district    Brest    Kirova         11     8        
+=== task 2.3: select sorted by id ===
+id  last_name  first_name  birth_date
+--  ---------  ----------  ----------
+1   Smirnov    Ivan        2001-03-11
+2   Sidorov    Pavel       1998-07-22
+3   Kovalev    Anton       2004-02-01
+4   Lebedeva   Anna        2005-11-16
+5   Semenov    Nikita      2003-12-03
+6   Ivanova    Daria       2002-09-27
+7   Morozov    Kirill      1997-05-15
+8   Stepanova  Maria       2006-01-09
+9   Savchenko  Artem       2000-04-18
+10  Orlova     Elena       1999-08-30
+=== task 2.3: select sorted by last_name ===
+id  last_name  first_name  birth_date
+--  ---------  ----------  ----------
+6   Ivanova    Daria       2002-09-27
+3   Kovalev    Anton       2004-02-01
+4   Lebedeva   Anna        2005-11-16
+7   Morozov    Kirill      1997-05-15
+10  Orlova     Elena       1999-08-30
+9   Savchenko  Artem       2000-04-18
+5   Semenov    Nikita      2003-12-03
+2   Sidorov    Pavel       1998-07-22
+1   Smirnov    Ivan        2001-03-11
+8   Stepanova  Maria       2006-01-09
+=== task 2.3: select last 5 rows ===
+id  last_name  first_name
+--  ---------  ----------
+10  Orlova     Elena     
+9   Savchenko  Artem     
+8   Stepanova  Maria     
+7   Morozov    Kirill    
+6   Ivanova    Daria     
+=== task 2.3: where id = 5 ===
+id  last_name  first_name  patronymic   gender  nationality  height_cm  weight_kg  birth_date  phone          postal_code  country  region         district         city    street       house  apartment
+--  ---------  ----------  -----------  ------  -----------  ---------  ---------  ----------  -------------  -----------  -------  -------------  ---------------  ------  -----------  -----  ---------
+5   Semenov    Nikita      Alekseevich  M       Belarusian   173        71.0       2003-12-03  +375291110005  220005       Belarus  Grodno region  Grodno district  Grodno  Centralnaya  8      19       
+=== task 2.3: where last_name like S% ===
+id  last_name  first_name
+--  ---------  ----------
+1   Smirnov    Ivan      
+2   Sidorov    Pavel     
+5   Semenov    Nikita    
+8   Stepanova  Maria     
+9   Savchenko  Artem     
+=== task 2.3: rename table person -> people ===
+=== task 2.3: update data ===
+id  last_name  first_name  phone          street       
+--  ---------  ----------  -------------  -------------
+5   Semenov    Nikita      +375291119999  UpdatedStreet
+=== task 2.4: youngest person ===
+id  last_name  first_name  birth_date
+--  ---------  ----------  ----------
+8   Stepanova  Maria       2006-01-09
+=== task 2.4: alter add columns email and city_id ===
+=== task 2.4: create category table for cities ===
+=== task 2.4: people with city names ===
+id  last_name  first_name  birth_date  city_name
+--  ---------  ----------  ----------  ---------
+1   Smirnov    Ivan        2001-03-11  Minsk    
+2   Sidorov    Pavel       1998-07-22  Minsk    
+3   Kovalev    Anton       2004-02-01  Brest    
+4   Lebedeva   Anna        2005-11-16  Vitebsk  
+5   Semenov    Nikita      2003-12-03  Grodno   
+6   Ivanova    Daria       2002-09-27  Minsk    
+7   Morozov    Kirill      1997-05-15  Mogilev  
+8   Stepanova  Maria       2006-01-09  Gomel    
+9   Savchenko  Artem       2000-04-18  Minsk    
+10  Orlova     Elena       1999-08-30  Brest    
+=== task 2.4: count people with height > 170 ===
+people_count_height_gt_170
+--------------------------
+6                         
+=== task 2.4: sum weight where height < 176 ===
+total_weight_height_lt_176
+--------------------------
+371.0                     
+=== task 2.4: max and min weight ===
+max_weight  min_weight
+----------  ----------
+90.4        54.6      
+=== task 2.4: inner join for city id = 5 ===
+id  last_name  first_name  city_name
+--  ---------  ----------  ---------
+8   Stepanova  Maria       Gomel    
+=== task 2.3: delete by id ===
+rows_after_delete_id
+--------------------
+9                   
+=== task 2.3: delete by object name (last_name) ===
+rows_after_delete_last_name
+---------------------------
+8                          
+=== task 2.3: export to SQL dump and CSV ===
+=== task 2.3: drop tables ===
+=== done ===

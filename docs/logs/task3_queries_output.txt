@@ -1,0 +1,5 @@
+Electronics|TechnoMarket|899.99
+Electronics|GadgetCity|499.5
+Smartphone|1200.0
+Headphones|450.0
+Monitor|600.0
