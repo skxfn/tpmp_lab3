@@ -89,9 +89,9 @@ WHERE gs.amount > 400;
 
 Создана БД по варианту 13 и повторены операции 2.3/2.4 через SQL-скрипты.
 
-Скриншоты из SQLite Database Manager (добавить):
-- `docs/images/task3_gui_query1.png` - результат запроса №1 из упражнения 3.2.
-- `docs/images/task3_gui_query2.png` - результат запроса №2 из упражнения 3.2.
+Скриншоты из SQLite Database Manager:
+- ![task3-query1](images/task3_gui_query1.jpg)
+- ![task3-query2](images/task3_gui_query2.jpg)
 
 ## Задание 4. Примеры на C для SQLite
 
@@ -133,9 +133,10 @@ WHERE gs.amount > 400;
 Логи:
 - `docs/logs/task5_build_run.txt`
 
-Скриншоты (добавить):
-- `docs/images/task5_menu.png` - меню приложения и выполнение пунктов 1-4.
-- `docs/images/task5_blob.png` - attach/export BLOB (пункты 9-10).
+Скриншоты:
+- ![task5-menu-1](images/task5_menu1.jpg)
+- ![task5-menu-2](images/task5_menu2.jpg)
+- ![task5-blob](images/task5_blob.jpg)
 
 ## Протокол тестирования (задача 5)
 
