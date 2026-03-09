@@ -1,0 +1,179 @@
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Schema and cities ready
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Inserted 1 row (autocommit)
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Inserted 3 rows (transaction)
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: All people:
+id=1 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+id=2 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+id=3 | Kovalev Anton | birth=2004-02-01 | city=Brest | phone=+375291000002
+id=4 | Stepanova Maria | birth=2006-01-09 | city=Gomel | phone=+375291000003
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Enter id: id=1 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Enter pattern (example Sm%): Pattern 'Sm%':
+id=1 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+id=2 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Enter city name: City 'Minsk':
+id=1 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+id=2 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Enter id to attach photo: Enter input file path: Photo attached for id=1, bytes=26
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Enter id to export photo: Enter output file path: Photo exported for id=1 to data/exported_photo.bin, bytes=26
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: Enter id to delete: Deleted rows: 1
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: All people:
+id=1 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+id=2 | Smirnov Ivan | birth=2001-03-11 | city=Minsk | phone=+375291000001
+id=3 | Kovalev Anton | birth=2004-02-01 | city=Brest | phone=+375291000002
+
+=== Project5 Menu ===
+1. Init schema + seed cities
+2. Insert one demo person (autocommit)
+3. Insert three demo people (transaction)
+4. Select all
+5. Select by id
+6. Select by last_name pattern
+7. Select by city
+8. Delete by id
+9. Attach photo (BLOB) by id
+10. Export photo (BLOB) by id
+0. Exit
+Choice: 
