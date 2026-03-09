@@ -1,0 +1,28 @@
+gcc -Wall -Wextra -std=c11 example1_gr12_SkaffennnnNikita.c -o example1_gr12_SkaffennnnNikita -lsqlite3
+gcc -Wall -Wextra -std=c11 example2_gr12_SkaffennnnNikita.c -o example2_gr12_SkaffennnnNikita -lsqlite3
+gcc -Wall -Wextra -std=c11 example3_gr12_SkaffennnnNikita.c -o example3_gr12_SkaffennnnNikita -lsqlite3
+gcc -Wall -Wextra -std=c11 example4_gr12_SkaffennnnNikita.c -o example4_gr12_SkaffennnnNikita -lsqlite3
+gcc -Wall -Wextra -std=c11 example5_gr12_SkaffennnnNikita.c -o example5_gr12_SkaffennnnNikita -lsqlite3
+./example1_gr12_SkaffennnnNikita
+example1: rows in demo_people
+id=1 | name=Ivan | age=22
+id=2 | name=Anna | age=21
+id=3 | name=Pavel | age=24
+./example2_gr12_SkaffennnnNikita
+example2: products with price > 100
+id=1 | name=Laptop | price=1999.90
+./example3_gr12_SkaffennnnNikita
+example3: blob bytes written=24
+./example4_gr12_SkaffennnnNikita
+example4: rows=5 sum=630.00
+./example5_gr12_SkaffennnnNikita
+example5: database metadata
+sqlite version: 3.51.0
+name=demo_people | type=table
+name=payments_demo | type=table
+name=photos_demo | type=table
+name=products | type=table
+Columns in demo_people:
+cid=0 | name=id | type=INTEGER
+cid=1 | name=name | type=TEXT
+cid=2 | name=age | type=INTEGER
